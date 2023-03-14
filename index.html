@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YangoStore</title>
+
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- BOXI ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="img/logo.png" class="logo-img" alt="">
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#inicio" class="nav_link active-link">Inicio</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#destacados" class="nav_link">Destacados</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#new" class="nav_link">Lo Nuevo</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#product" class="nav_link">Productos</a>
+                    </li>
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+
+            <div class="nav_btns">
+
+                <!-- BOTON DE TEMA OSCURO/CLARO -->
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+    <!-- MAIN -->
+    <main class="main">
+        <!-- "SECCION INICIO"-->
+        <section class="inicio" id="inicio">
+            <div class="inicio_container container grid">
+                <div class="inicio_img-bg">
+                    <img src="img/prueba.png" alt="" class="inicio_img">
+                </div>
+
+                <div class="inicio_data">
+                    <h1 class="inicio_title">
+                        NUEVA COLECCION <br> BLANQUIAZUL
+                    </h1>
+                    <p class="inicio_description">
+                        En esta nueva coleccion nos ofrece medias de calidad, como tambien el sentir de los colores blanquiazules en nuestros pies.
+                    </p>
+
+                    <div class="inicio_btns">
+                        <a href="#destacados" class="button button--gris button--small">
+                            Descubre lo nuevo
+                        </a>
+
+                        <form action="#destacados">
+                        <button  href="#product" class="button inicio_button">Ver más</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <!-- "SECCION DESTACADO"-->
+        <section class="destacado section container" id="destacados">
+            <h2 class="section_title">
+                Destacados
+            </h2>
+
+            <div class="destacado_container grid">
+                <article class="destacado_card">
+                    <span class="destacado_tag">Sale</span>
+
+                    <img src="img/d1.png" alt="" class="destacado_img">
+                
+                    <div class="destacado_data">
+                        <span class="destacado_precio">S/ 20.00</span>
+                    </div>
+
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="button destacado_button">
+                        Comprar
+                    </button>
+                    </form>
+                </article>
+
+                <article class="destacado_card">
+                    <span class="destacado_tag">Sale</span>
+
+                    <img src="img/d2.png" alt="" class="destacado_img">
+                
+                    <div class="destacado_data">
+                        <span class="destacado_precio">S/ 20.00</span>
+                    </div>
+
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="button destacado_button">
+                        Comprar
+                    </button>
+                    </form>
+                </article>
+
+                <article class="destacado_card">
+                    <span class="destacado_tag">Sale</span>
+
+                    <img src="img/d3.png" alt="" class="destacado_img">
+                
+                    <div class="destacado_data">
+                        <span class="destacado_precio">S/ 20.00</span>
+                    </div>
+
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="button destacado_button">
+                        Comprar
+                    </button>
+                    </form>
+                </article>
+            </div>
+        </section>
+
+        <!-- "SECCION STORY"-->
+        <section class="story section container">
+            <div class="story_container grid">
+                <div class="story_data">
+                    <h2 class="section_title story_section-title">
+                        Nuestro Origen 
+                    </h2>
+
+                    <h1 class="story_title">
+                        Amor y Pasión
+                    </h1>
+
+                    <p class="story_description">
+                        Ofrecemos diversos productos y accesesorios de nuestro amado equipo Alianza Lima!.
+                        Los cuales cuentan con muy buena calidad y de un buen diseño ala vista de la hinchada.
+                    </p>
+
+                    <a href="#new" class="button button--small">Descúbrelo</a>
+                </div>
+
+                <div class="story_images">
+                    <img src="img/prueba.jfif" alt="" class="story_img">
+                    <div class="story_square"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="new section container" id="new">
+            <h2 class="section_title">
+                NUEVA COLECCÍON
+            </h2>
+
+            <div class="new_container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/c1.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <span class="new_precio">S/ 20.00</span>
+                            </div>
+
+                            <form target="_blank" action="https://wa.me/51950808254">
+                            <button class="button new_button">Comprar</button>
+                            </form>
+                        </article>
+
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/c2.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <span class="new_precio">S/ 20.00</span>
+                            </div>
+
+                            <form target="_blank" action="https://wa.me/51950808254">
+                            <button class="button new_button">Comprar</button>
+                            </form>
+                        </article>
+
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/c3.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <span class="new_precio">S/ 20.00</span>
+                            </div>
+
+                            <form target="_blank" action="https://wa.me/51950808254">
+                            <button class="button new_button">Comprar</button>
+                            </form>
+                        </article>
+
+                        <article class="new_card swiper-slide">
+                            <span class="new_tag">Nuevo</span>
+
+                            <img src="img/c4.png" alt="" class="new_img">
+                        
+                            <div class="new_data">
+                                <span class="new_precio">S/ 20.00</span>
+                            </div>
+
+                            <form target="_blank" action="https://wa.me/51950808254">
+                            <button class="button new_button">Comprar</button>
+                            </form>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- "SECCION PRODUCTOS"-->
+        <section class="products section container" id="product">
+            <h2 class="section_title">
+                Productos
+            </h2>
+
+            <div class="products_container grid">
+                <article class="products_card">
+                    <img src="img/p1.png" alt="" class="products_img">
+                    
+                    <h3 class="products_title"></h3>
+                    <span class="products_precio">S/ 20.00</span>
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                    </form>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/p2.png" alt="" class="products_img">
+                    
+                    <span class="products_precio">S/ 20.00</span>
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                    </form>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/p3.png" alt="" class="products_img">
+                    
+                    <span class="products_precio">S/ 20.00</span>
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                    </form>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/c2.png" alt="" class="products_img">
+                    
+                    <span class="products_precio">S/ 20.00</span>
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                    </form>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/p4.png" alt="" class="products_img">
+                    
+                    <span class="products_precio">S/ 20.00</span>
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button type="submit" class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                    </form>
+                </article>
+
+                <article class="products_card">
+                    <img src="img/c3.png" alt="" class="products_img">
+                    
+                    <span class="products_precio">S/ 20.00</span>
+                    <form target="_blank" action="https://wa.me/51950808254">
+                    <button class="products_button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                    </form>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- "SECCION DE TESTIMONIOS" -->
+        <section class="testimonio section container">
+            <h2 class="section_title">
+                Comentarios 
+            </h2>
+            <div class="testimonio_container grid">
+                <div class="swiper testimonio-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonio_card swiper-slide">
+                            <div class="testimonio_quote">
+                                <i class='bx bxs-quote-alt-left' ></i>
+                            </div>
+
+                            <p class="testimonio_description">
+                                Es impresionante lo resistentes y durables que son. Ademas de la buena calidad que contienen.
+                            </p>
+                            <h3 class="testimonio_date">Martes 7 Marzo. 2023</h3>
+                        
+                            <div class="testimonio_perfil">
+                                <img src="img/test2.jpeg" alt="" class="testimonio_perfil-img">
+                            
+                                <div class="testimonio_perfil-data">
+                                    <span class="testimonio_perfil-name">Jocelyn Castillo</span>
+                                    <span class="testimonio_perfil-detail">Nutricionista</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonio_card swiper-slide">
+                            <div class="testimonio_quote">
+                                <i class='bx bxs-quote-alt-left' ></i>
+                            </div>
+
+                            <p class="testimonio_description">
+                                Estoy impresionada con la abundancia de diseños y de la calidad de las medias. Unicos en su estilo, Ademas
+                                cabe resaltar la rapida entrega de los productos.
+                            </p>
+                            <h3 class="testimonio_date">Lunes 7 Marzo. 2023</h3>
+                        
+                            <div class="testimonio_perfil">
+                                <img src="img/test3.jpeg" alt="" class="testimonio_perfil-img">
+                            
+                                <div class="testimonio_perfil-data">
+                                    <span class="testimonio_perfil-name">Deysi Castillo</span>
+                                    <span class="testimonio_perfil-detail">Administradora</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-left-arrow-alt' ></i>
+                    </div>
+                </div>
+
+                <div class="testimonio_images">
+                    <div class="testimonio_square"></div>
+                    <img src="img/prueba3.png" class="testimonio_img"></img>
+                </div>
+            </div>
+        </section>
+
+        <!-- "SECCION NUEVO"-->
+        
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="foter section">
+        <div class="foter_container container grid">
+            <div class="foter_content">
+                <h3 class="foter_title">Información</h3>
+
+                <ul class="foter_list">
+                    <li>Lima - Peru</li>
+                    <li>Av Puente Piedra</li>
+                    <li>950-808-254</li>
+                </ul>
+            </div>
+
+            <div class="foter_content">
+                <h3 class="foter_title">Sobre nosotros</h3>
+
+                <ul class="foter_links">
+                    <li>
+                        <a href="" class="foter_link">Atencion al cliente</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Política de cookies</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Aviso legal</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Política de privacidad</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foter_content">
+                <h3 class="foter_title">Productos</h3>
+
+                <ul class="foter_links">
+                    <li>
+                        <a href="" class="foter_link">Accsésorios</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Devoluciones</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Promociones</a>
+                    </li>
+                    <li>
+                        <a href="" class="foter_link">Deliverys</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foter_content">
+                <h3 class="foter_title">Redes Sociales</h3>
+
+                <ul class="foter_social">
+                    <a href="https://www.facebook.com/saul.suvargas" target="_blank" class="foter_social-link">
+                        <i class='bx bxl-facebook-circle' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/saulsuvargas/" target="_blank" class="foter_social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="https://github.com/SaulSuVargas" target="_blank" class="foter_social-link">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <span class="foter_copy">
+            &copy; Creado por
+            <a href="https://www.instagram.com/saulsuvargas/" target="_blank"
+            >Saul Su Vargas </a>
+        </span>
+    </footer>
+
+    <!-- SCROLL (ARRIBA) -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup_icon'></i>
+    </a>
+
+    <!-- SWIPER JS -->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!-- SCRIPT PRINCIPAL -->
+    <script src="main.js"></script>
+</body>
+</html>
